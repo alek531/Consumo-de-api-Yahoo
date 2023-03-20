@@ -24,7 +24,6 @@ class _MenuState extends State<Menu> {
   ControllerEstadoGeral controllerGeral = ControllerEstadoGeral();
 
   late List<ControllerListDataTable> ListDadoParaDataTable = [];
-  late List<ControllerChartData> data;
   late List<ControllerChartData> dadosData;
 
   /** Buscando dados para popular data table */
